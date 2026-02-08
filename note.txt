@@ -1,0 +1,5 @@
+git --version //看git是否安裝
+git add 檔案 //追蹤
+git add . //追蹤track此目錄所有檔
+git commit -m "還原點名稱" //建立還原點(提交所有追蹤檔案狀態)
+git stutas //當前目錄，檔案狀態，會顯示未追蹤檔
