@@ -1,5 +1,13 @@
-git --version //看git是否安裝
-git add 檔案 //追蹤
-git add . //追蹤track此目錄所有檔
-git commit -m "還原點名稱" //建立還原點(提交所有追蹤檔案狀態)
-git stutas //當前目錄，檔案狀態，會顯示未追蹤檔
+git --version // 看git是否安裝
+git init // 初始化建立.git檔紀錄訊息
+git add 檔案 // 追蹤
+git add . // 追蹤track此目錄所有檔
+git commit -m "還原點名稱" // 建立還原點(提交所有追蹤檔案狀態)
+git stutas // 當前目錄，檔案狀態，會顯示未追蹤檔
+git log // 列出詳細的提交歷史 輸入q跳出
+git log --online // 列出所有的提交歷史(簡化)
+git diff 還原點ID -- 檔案名稱 
+//比較不同 -還原點時那行訊息 +現在那行修改的地方
+git checkout 還原點ID -- 檔案名稱 
+// 將檔案還原到還原點狀態
+git reset --hard 還原點ID // 當前目錄所有檔，還原到還原點ID版本，刪除之後提交記錄 
