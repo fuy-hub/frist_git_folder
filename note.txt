@@ -1,3 +1,4 @@
+git 是個可以追蹤log控制checkout檔案版本、變更的系統
 git --version // 看git是否安裝
 git init // 初始化建立.git檔紀錄訊息
 git add 檔案 // 追蹤
@@ -13,3 +14,4 @@ git checkout 還原點ID -- 檔案名稱
 git reset --hard 還原點ID 
 // 當前目錄所有檔，還原到還原點ID版本，刪除之後提交記錄 
 .gitignore // 設定忽視不提交的檔案
+*.副檔名 // 有此副檔名的檔案
