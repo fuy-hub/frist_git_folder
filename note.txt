@@ -15,3 +15,9 @@ git reset --hard 還原點ID
 // 當前目錄所有檔，還原到還原點ID版本，刪除之後提交記錄 
 .gitignore // 設定忽視不提交的檔案
 *.副檔名 // 有此副檔名的檔案
+//1.連接儲存庫 2.建立主支 3.第一推送本機檔案
+git remote add origin https://github.com/fuy-hub/frist_git_folder.git
+git branch -M main
+git push -u origin main
+
+git push // 第一次之後推送
