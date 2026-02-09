@@ -21,3 +21,5 @@ git branch -M main
 git push -u origin main
 
 git push // 第一次之後推送
+git clone 儲存庫網址 //協作者將儲存庫第一次專案拉至本機
+git pull //協作者第一次之後將變更後儲存庫專案拉至本機
